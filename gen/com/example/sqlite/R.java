@@ -7,6 +7,8 @@
 
 package com.example.sqlite;
 
+import android.view.View;
+
 public final class R {
     public static final class anim {
         public static final int abc_fade_in=0x7f040000;
@@ -2120,6 +2122,16 @@ containing a value of this type.
         public static final int useLogo=0x7f090013;
         public static final int withText=0x7f09001d;
         public static final int wrap_content=0x7f090009;
+		public static final int item1 = 0;
+		public static final int editTextName = 0;
+		public static final int editTextPhone = 0;
+		public static final int editTextStreet = 0;
+		public static final int editTextCity = 0;
+		public static final int editTextEmail = 0;
+		public static final int button1 = 0;
+		public static final int Edit_Contact = 0;
+		public static final int Delete_Contact = 0;
+		public static int listView1;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f080001;
@@ -2196,9 +2208,11 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f030023;
         public static final int select_dialog_singlechoice_material=0x7f030024;
         public static final int support_simple_spinner_dropdown_item=0x7f030025;
+		public static final View activity_display_contact = null;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
+		public static final int menu_main = 0;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -2276,6 +2290,8 @@ containing a value of this type.
          [CHAR LIMIT=4] 
          */
         public static final int status_bar_notification_info_overflow=0x7f0a0011;
+		public static final CharSequence deleteContact = null;
+		public static final String no = null;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0b0044;
